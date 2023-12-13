@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.cardapio{
+    width: 50%;
+    height: 50%;
+    margin-top: -19%;
+    background: green;
+    display: block;
+    margin-left: -40%;
+    color: white;
+}
+input{
+    margin: 3%;
+}
+li{
+    text-decoration: none;
+    display: flex;
+    font-family: monospace;
+    list-style: none;
+    font-weight: 900;
+    font-size: 182%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.mesa{
+    margin-left: 22px;
+}
+#numero{
+    margin-left: 5%;
+}
+.quantidade-pedido{
+    font-size: 20px;
+    padding: 6px;
+    width: 16%;
+    margin-left: 18%;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    all: unset; 
+    min-width: 21px;
+    min-height: 45px;
+    margin: 17px;
+    padding: 0px;
+    background-image: 
+    linear-gradient(to top, transparent 0px, transparent 16px, #fff 16px, #fff 26px, transparent 26px, transparent 35px, #000 35px,#000 36px,transparent 36px, transparent 40px),
+    linear-gradient(to right, transparent 0px, transparent 10px, #000 10px, #000 11px, transparent 11px, transparent 21px);
+    transform: rotate(90deg) scale(0.8, 0.9);
+    cursor:pointer;
+}
+.button{
+    padding: 2%;
+    background: green;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;   
+    margin-top: 15%;
+}
+.pedidos{
+    width: 40%;
+    height: 50%;
+    margin-top: -19%;
+    background: #b6b6b6;
+    display: block;
+    position: absolute;
+    margin-left: 56%;
+}
+.infopedidos{
+    padding: 9%;
+}

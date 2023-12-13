@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Public/css/style.css">
+    <title>Cardápio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="cardapio">
+            <h1 class="title">CARDAPIO</h1>
+            <ul>
+                <li>
+                    <p class="mesa">MESA</p>
+                    <p id="numero">0</p>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="pedido" class="pedido-checkbox" value="35">
+                        Frango Frito -- 35 R$ 
+                        <input type="number" name="quantidade" class="quantidade-pedido">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="pedido" class="pedido-checkbox" value="40">
+                        Peixe Frito -- 40 R$  
+                        <input type="number" name="quantidade" class="quantidade-pedido">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="pedido" class="pedido-checkbox" value="50">
+                        Chapa Mista -- 50 R$  
+                        <input type="number" name="quantidade" class="quantidade-pedido">
+                    </label>
+                </li>
+            </ul>
+            <input type="submit" value="FAZER PEDIDO" class="button" onclick="adicionarPedido()">
+        </div>
+
+        <div class="pedidos" id="pedidos-container">
+            <h1>PEDIDOS</h1>
+        </div>
+    </div>
+
+    <script src="./Public/js/main.js"></script>
+</body>
+</html>
